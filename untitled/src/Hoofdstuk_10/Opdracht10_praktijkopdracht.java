@@ -66,3 +66,5 @@ public class Opdracht10_praktijkopdracht extends Applet {
         }
     }
 }
+
+

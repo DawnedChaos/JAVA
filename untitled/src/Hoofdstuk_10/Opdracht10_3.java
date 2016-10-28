@@ -58,7 +58,7 @@ public class Opdracht10_3 extends Applet {
                 case 10:
                     tekst = "oktober, 31 dagen";
                     break;
-                case 11:
+                    case 11:
                     tekst = "november, 30 dagen";
                     break;
                 case 12:
