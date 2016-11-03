@@ -3,6 +3,7 @@ package Hoofdstuk_11;
 import java.awt.*;
 import java.applet.*;
 
+//10 verticale lijnen
 public class Opdracht11_1 extends Applet {
 
     public void init() {}
