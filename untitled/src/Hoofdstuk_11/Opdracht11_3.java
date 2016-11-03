@@ -10,5 +10,25 @@ import java.applet.*;
 
 
 
-public class Opdracht11_3 extends Applet{
+public class Opdracht11_3 extends Applet {
+
+        public void init(){}
+        int teller=0;
+        int x;
+        int y;
+
+    public void paint(Graphics g) {
+            super.paint(g);
+
+            while(teller <5){
+                x+=2;
+                y+=20;
+                g.drawString(""+01+x,50,y);
+                teller++;
+            }
         }
+}
+
+
+
+

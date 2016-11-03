@@ -1,20 +1,24 @@
 package Hoofdstuk_11;
 
-import java.awt.*;
-import java.applet.*;
+        import java.awt.*;
+        import java.applet.*;
 
-public class Opdracht11_4 extends Applet {
+//Tafel van drie
+public class Opdracht11_4 extends Applet{
 
-    public void init() {
-    }
+    public void init() {}
+    int teller;
+    int x;
+    int y;
 
     public void paint(Graphics g) {
-        int teller;
-        int y = 0;
+        super.paint(g);
 
-        for(teller = 0; teller < 30; teller++) {
-            y += 3;
-            g.drawString("" + teller, 50, y);
+
+        while(teller <10){
+            x+=3;
+            y+=20;
+            g.drawString(""+x, 50, y);
             teller++;
         }
     }

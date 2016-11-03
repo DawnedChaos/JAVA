@@ -9,13 +9,17 @@ import java.applet.*;
 public class Opdracht11_6 extends Applet{
 
     public void init() {}
+    int teller;
+    int x;
+    int y;
 
-        public void paint(Graphics g) {
-            g.drawOval(100,100,10,10);
-            g.drawOval(98,98,14,14);
-            g.drawOval(96,96,18,18);
-            g.drawOval(94,94,22,22);
-            g.drawOval(92,92,26,26);
-
+    public void paint(Graphics g) {
+        super.paint(g);
+        while(teller <5){
+            x+=-4;
+            y+=8;
+            g.drawOval(100+x,100+x,10+y,10+y);
+            teller++;
+        }
     }
 }
